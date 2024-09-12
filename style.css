@@ -1,0 +1,59 @@
+.card{
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.section-about{
+  background-image: url(./images/image211.jpg-min.png);
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.help{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #f7f3ee;
+}
+
+.left-about h2{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.left-about p{
+  font-size: larger;
+  font-weight: 600;
+  padding: 50px;
+}
+
+.donate{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: larger;
+  height: 100px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.donation{
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 20px;
+  height: 50px;
+  width: 180px;
+  background-color: #eaea11b2;
+}
+

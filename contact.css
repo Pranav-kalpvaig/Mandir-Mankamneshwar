@@ -1,0 +1,214 @@
+footer{
+    background-color: whitesmoke;
+    /* background-image: url(./images/image21.jpg.jpg); */
+}
+.contact{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact h4,h2{
+    font-family:serif;
+}
+footer p{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer li{
+    display: flex;
+    text-decoration: none;
+}
+footer h4,h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box h4{
+    color: tomato;
+    font-family: initial;
+}
+.upper-box{
+width: 100%;
+display:flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+.lower-box{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.bottom-box{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.main-box{
+    background-image: url(./images/image181-min.png);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contact-info h2{
+font-family: 'Times New Roman', Times, serif;
+}
+
+.info-one{
+    width: 50%;
+}
+.info-second h5{
+    font-size: larger;
+  font-family: initial;
+  font-weight: bolder;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero-one{
+    text-align: center;
+}
+
+.hero-two{
+    text-align: center;
+}
+.hero-two img{
+    width: 60%;
+  border: 8px;
+    border-right-style: none;
+    border-right-color: currentcolor;
+  border-radius: 50px 50px 50px 50px;
+  border-right-style: dotted;
+  border-right-color: crimson;
+}
+.hero-one h4{
+    font-size: xx-large;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  color: tomato;
+}
+.hero-one h1{
+    font-weight: 600;
+  color: tomato;
+}
+.hero-one p{
+    font-weight: 600;
+    margin-top: 40px;
+  margin-bottom: 3rem;
+}
+.center-hero h1{
+    font-weight: 600;
+}
+.center-hero{
+    text-align: center;
+    padding: 25px;
+}
+
+.vision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.right-vision{
+    text-align: center;
+}
+
+
+
+.right-vision h4{
+    font-size: xx-large;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  color: tomato;
+}
+
+.right-vision h1{
+    font-weight: 600;
+    color: black;
+}
+.right-vision p{
+    font-weight: 600;
+}
+.donation-form {
+    background: #fff;
+    padding: 100px;
+    margin: 50px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.donation-form p{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: red;
+  font-size: large;
+  font-weight: bolder;
+}
+.donation-form h2 {
+    margin-bottom: 20px;
+}
+.donation-form input, .donation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.donation-form button {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.donation-form button:hover {
+    background: #218838;
+}
+
+.last-one{
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  margin: 40px 10px;
+}
+.last-two {
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+}
